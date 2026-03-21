@@ -247,7 +247,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)mxml4.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
-      <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <ImportLibrary>$(Configuration)\$(Platform)\$(ProductName)\mxml4.lib</ImportLibrary>
       <TargetMachine>MachineARM64</TargetMachine>
@@ -273,7 +272,6 @@
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
       <ImportLibrary>$(Configuration)\$(Platform)\$(ProductName)\mxml4.lib</ImportLibrary>
       <TargetMachine>MachineARM64</TargetMachine>
