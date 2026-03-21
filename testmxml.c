@@ -8,17 +8,13 @@
 //
 // https://www.msweet.org/mxml
 //
-// Copyright © 2003-2025 by Michael R Sweet.
+// Copyright © 2003-2026 by Michael R Sweet.
 //
 // Licensed under Apache License v2.0.  See the file "LICENSE" for more
 // information.
 //
 
-#include "config.h"
-#include "mxml.h"
-#ifndef _WIN32
-#  include <unistd.h>
-#endif // !_WIN32
+#include "mxml-private.h"
 #include <fcntl.h>
 #ifndef O_BINARY
 #  define O_BINARY 0
