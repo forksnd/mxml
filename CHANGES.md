@@ -6,6 +6,8 @@ v4.0.5 (YYYY-MM-DD)
 -------------------
 
 - Added support for the "apos" entity (Issue #346)
+- Added support for Windows on ARM64 (Issue #352)
+- Fixed build issues with MingW (Issue #347)
 - Fixed an access issue in `mxmlIndexNew` (Issue #350)
 
 

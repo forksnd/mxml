@@ -3,7 +3,7 @@ dnl Configuration script for Mini-XML, a small XML file parsing library.
 dnl
 dnl https://www.msweet.org/mxml
 dnl
-dnl Copyright © 2003-2025 by Michael R Sweet.
+dnl Copyright © 2003-2026 by Michael R Sweet.
 dnl
 dnl Licensed under Apache License v2.0.  See the file "LICENSE" for more
 dnl information.
@@ -98,10 +98,6 @@ AS_IF([test x$enable_libmxml4_prefix != xno], [
 AC_SUBST([LIBMXML_BASE])
 AC_SUBST([MXML_MAN])
 AC_SUBST([MXML_PC])
-
-
-dnl Inline functions...
-AC_C_INLINE
 
 
 dnl Threading support

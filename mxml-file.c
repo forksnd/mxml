@@ -3,15 +3,12 @@
 //
 // https://www.msweet.org/mxml
 //
-// Copyright © 2003-2024 by Michael R Sweet.
+// Copyright © 2003-2026 by Michael R Sweet.
 //
 // Licensed under Apache License v2.0.  See the file "LICENSE" for more
 // information.
 //
 
-#ifndef _WIN32
-#  include <unistd.h>
-#endif // !_WIN32
 #include "mxml-private.h"
 
 
